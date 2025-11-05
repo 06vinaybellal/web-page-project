@@ -325,7 +325,7 @@ transition: transform 0.3s ease;
 /* -----form & map------ */
 
 .location-details {
-  display: flex;
+  display: inline-flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start;
@@ -504,3 +504,4 @@ font-family: "Open Sans", sans-serif;
   }
 
 }
+
