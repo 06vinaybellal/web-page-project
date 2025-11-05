@@ -1,0 +1,504 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: "Open Sans", sans-serif;
+  background-color: #fff;
+}
+
+/* ========== Title========== */
+header {
+  display: flex;
+    flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 60px;
+  width: 100%;
+  background: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.logo {
+  font-family: "Dancing Script", cursive;
+  font-size: 2.2rem;
+  color: #fff;
+  position: relative;
+  left: 50px;
+}
+
+nav a {
+  margin: 0 18px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.2s;
+  position: relative;
+  left: 50px;
+}
+
+nav a:hover {
+  color: #ffc73a;
+}
+
+.header-icons {
+  display: flex;
+  align-items: center;
+  color: white;
+  position: relative;
+  right: 100px;
+}
+
+
+
+
+
+.icon {
+  font-size: 1rem;
+  margin-right: 12px;
+}
+
+.order-btn {
+  background: #ffc73a;
+  color: #fff;
+  border-radius: 28px;
+  padding: 10px 28px;
+  text-decoration: none;
+  font-weight: 600;
+  margin-left: 15px;
+  transition: background 0.2s;
+}
+
+.order-btn:hover {
+  background: #fd9800;
+}
+
+/* ========== back image ========== */
+.bg-container {
+  width: 100%;
+  height: 90vh;
+  background: url("https://themewagon.github.io/feane/images/hero-bg.jpg") no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 8%;
+  color: white;
+}
+
+.text-container {
+  max-width: 600px;
+}
+
+.text-container h3 {
+  font-family: "Dancing Script", cursive;
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+
+.text-container p {
+  font-size: 1rem;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+/* ========== offers========== */
+.main-container {
+  width: 100%;
+  display: flex;
+   flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  background: #fff;
+  padding: 80px 0;
+}
+.main-container p{
+  position: relative;
+  left: 25px;
+  font-size: 25px;
+}
+.main-container h3{
+  position: relative;
+  left: 35px;
+  font-size: 35px;
+}
+.main-container p1{
+  position: relative;
+  left: 35px;
+  font-size: 20px;
+  margin-bottom: 7px;
+}
+
+.item-1, .item-2 {
+  background: #232834;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  padding: 20px;
+  width: 500px;
+  box-shadow: 0 3px 15px rgba(0,0,0,0.1);
+  gap: 20px;
+}
+
+.item-1 img, .item-2 img {
+  width: 150px;
+  border-radius: 50%;
+  border: 4px solid #ffd700;
+  transition: transform 0.3s ease; 
+}
+.item-1 img:hover, .item-2 img:hover {
+     transform: scale(1.1);
+}
+
+
+.card-content, .card-content2 {
+    font-family: "Dancing Script", cursive;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* =======menu navbar====== */
+.our_menu {
+  text-align: center;
+  margin-top: 40px;
+  font-family: "Dancing Script", cursive;
+  font-size: 2.5rem;
+}
+
+.navbar1 {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin: 30px 0;
+}
+
+.nav-item1 {
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.nav-item1:hover {
+  background: #fd9800;
+  color: #fff;
+  border-color: #fd9800;
+}
+
+/* ======menu===== */
+.top, .top1, .top2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.count {
+  background-color: rgb(34, 40, 49);
+  width: 360px;
+  height: 430px;
+  border-radius: 25px;
+  overflow: hidden;
+  position: relative;
+}
+
+.count img {
+  /* box-sizing: border-box; */
+  /* background-color: white; */
+  width: 200px;
+  height: 190px;
+position: relative;
+left: 20%;
+margin-bottom: 20px;
+margin-top: 35px;
+transition: transform 0.3s ease; 
+/* right: 35%; */
+  /* align-items: center;  */
+  /* object-fit: cover; */
+}
+.count img:hover{
+   transform: scale(1.2);
+  /* padding: 5px; */
+
+}
+
+.content, .content1, .content3 {
+    font-family: "Open Sans", sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.content3 {
+  position: absolute;
+  left: 20px;
+  bottom: 25px;
+  font-weight: bold;
+}
+
+.content2 {
+  position: absolute;
+  right: 20px;
+  bottom: 25px;
+  background:  #ffc73a;
+  color: black;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+/* ======items===== */
+.burger {
+  width: 100%;
+  background: rgb(34, 40, 49);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 10%;
+  gap: 50px;
+}
+
+.burger img {
+  width: 400px;
+  position: relative;
+  left: 150px;
+}
+
+.Name {
+  font-family: "Dancing Script", cursive;
+  box-sizing: border-box;
+  width: 250px;
+  /* height: 50px; */
+  font-size: 2rem;
+  margin-bottom: 20px;
+  position: relative;
+  top: -120px;
+  left: 230px;
+  /* width: 50px; */
+  /* display: flex; */
+}
+
+.description{
+  max-width: 500px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.robo1 {
+  background: #fd9800;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  right: 550px;
+  bottom: -120px ;
+   width: 150px;
+   height: 50px;
+   border-radius: 25px;
+
+}
+.robo1:hover{
+  background: #df8e15;
+}
+.robo{
+    background-color:  #fd9800;
+  color: white;
+  border: none;
+  padding: 10px 55px;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-bottom: 80px;
+  margin-top: 20px;
+  
+}
+  
+/* -----form & map------ */
+
+.location-details {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 60px;
+  width: 100%;
+  padding: 80px 10%;
+  background: #fff;
+  flex-wrap: wrap;
+}
+
+.form h1 {
+  font-family: "Dancing Script", cursive;
+  margin-bottom: 20px;
+}
+
+center{
+    font-family: "Dancing Script", cursive;
+
+}
+
+.form input {
+  width: 590px;
+  height: 45px;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.form button {
+  background-color:  #fd9800;
+  color: white;
+  border: none;
+  padding: 10px 55px;
+  border-radius: 25px;
+  cursor: pointer;
+  /* width: 30px; */
+}
+
+.maps iframe {
+  width: 590px;
+  height: 350px;
+  border: 0;
+}
+
+/* -----CUSTOMER ---- */
+.customer-box {
+  display: flex;
+   flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  padding: 60px 10%;
+  margin-bottom: 100px;
+}
+.customer-img img{
+  width: 100px;
+  height: 100px;
+   /* width: 150px; */
+  border-radius: 50%;
+  border: 6px solid #ffd700;  
+  position: relative;
+  top: 200px;
+  right: 530px;
+  /* top: 4370px; */
+  /* top: ; */
+
+}
+
+.customer-img2 img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 6px solid #ffd700;
+  position: relative;
+  right: 530px;
+  top: 200px;
+}
+
+.detail-box {
+  background-color: #232834;
+  color: white;
+  width: 500px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+/*----- Footer------ */
+.footer {
+  background-color: rgb(34, 40, 49);
+  color: white;
+  text-align: center;
+  padding: 40px 10%;
+}
+
+
+.footer h3 {
+  font-family: "Dancing Script", cursive;
+  margin-bottom: 10px;
+  font-size: 35px;
+}
+.footer h2 {
+font-family: "Open Sans", sans-serif;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.footer a {
+font-family: "Open Sans", sans-serif;
+  color: white;
+  text-decoration: none;
+}
+.footer-box5{
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
+    gap: 100px;
+}
+.footer .class2{
+    position: relative;
+    left: 100px;
+    width:28% ;
+}
+.footer .class{
+    width:28% ;
+}
+.footer_social {
+  margin-top: 20px;
+}
+
+.footer_social a {
+  color: white;
+  margin: 0 5px;
+  font-size: 1.2rem;
+  margin-bottom: 50px;
+}
+
+
+.footer_social {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+}
+
+.footer_social a {
+    width: 45px;
+    height: 45px;
+    background: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 50%;
+    font-size: 15px;
+    transition: 0.3s ease-in-out;
+    border: 0px solid ;
+}
+
+.footer_social a:hover {
+    /* background: #ffc73a; */
+    color: #ffc73a;
+    transform: scale(1.1);
+}
+
+@media (max-width: 600px) {
+  .header-icons {
+    display: none !important;
+    right: 0;
+  }
+}
+@media (max-width: 600px) {
+  .order-btn {
+    display: none !important;
+    right: 0;
+  }
+}
