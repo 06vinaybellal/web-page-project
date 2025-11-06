@@ -329,7 +329,7 @@ transition: transform 0.3s ease;
   flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start;
-  gap: 60px;
+  gap: 30px;
   width: 100%;
   padding: 80px 10%;
   background: #fff;
@@ -400,8 +400,8 @@ center{
   border-radius: 50%;
   border: 6px solid #ffd700;
   position: relative;
-  right: 530px;
-  top: 200px;
+  left: 150px;
+  bottom: 20px;
 }
 
 .detail-box {
@@ -504,4 +504,5 @@ font-family: "Open Sans", sans-serif;
   }
 
 }
+
 
